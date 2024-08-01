@@ -37,7 +37,7 @@ app:
 app-www-data:
 	docker-compose exec --user=www-data app bash
 
-down-v:
+vdown:
 	docker-compose down -v
 
 # Laravel setup for Mac/Linux
